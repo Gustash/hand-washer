@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LogCard /> matches snapshot 1`] = `
+<Row
+  highlight="00:00"
+  primaryText="Monday"
+  secondaryText="1st January 1990"
+  separator={true}
+/>
+`;

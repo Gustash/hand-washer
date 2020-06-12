@@ -1,0 +1,4 @@
+{
+  "name": "app",
+  "//": "This allows us to import from e.g. `app/components/Button` from anywhere"
+}

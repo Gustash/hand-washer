@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Settings /> matches snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+        "paddingTop": 36,
+      }
+    }
+  >
+    <View>
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E6E6E6",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "marginLeft": 13,
+            "opacity": 1,
+            "paddingLeft": 8,
+            "paddingRight": 27,
+            "paddingVertical": 12,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#4A4A4A",
+              "flex": 1,
+              "fontSize": 17,
+            }
+          }
+          testId="settings-row-text"
+        >
+          Store History
+        </Text>
+        <RCTSwitch
+          accessibilityRole="switch"
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "height": 31,
+              "width": 51,
+            }
+          }
+          value={true}
+        />
+      </View>
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderBottomColor": "#E6E6E6",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "marginLeft": 13,
+            "opacity": 1,
+            "paddingLeft": 8,
+            "paddingRight": 27,
+            "paddingVertical": 12,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#4A4A4A",
+              "flex": 1,
+              "fontSize": 17,
+            }
+          }
+          testId="settings-row-text"
+        >
+          Two Hour On Shift Reminders
+        </Text>
+        <RCTSwitch
+          accessibilityRole="switch"
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "height": 31,
+              "width": 51,
+            }
+          }
+          value={true}
+        />
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;

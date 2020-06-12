@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BottomBarButton /> matches BottomBarButton snapshot 1`] = `
+<ForwardRef
+  onPress={[MockFunction]}
+>
+  <ForwardRef(SafeAreaView)
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": -4,
+          },
+          "shadowOpacity": 0.2,
+          "shadowRadius": 16,
+        },
+        Object {
+          "backgroundColor": "#00A1D2",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 17,
+            "marginVertical": 16,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#FFFFFF",
+          },
+        ]
+      }
+    />
+  </ForwardRef(SafeAreaView)>
+</ForwardRef>
+`;

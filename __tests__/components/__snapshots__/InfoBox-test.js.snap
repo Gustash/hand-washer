@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InfoBox /> matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#00A778",
+        "borderRadius": 4,
+        "paddingHorizontal": 22,
+        "paddingVertical": 6,
+      },
+      Object {
+        "opacity": 1,
+      },
+      null,
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#FFFFFF",
+        "fontSize": 17,
+        "textAlign": "center",
+      }
+    }
+  />
+</View>
+`;

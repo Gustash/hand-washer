@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CircleProgress /> matches CircleProgress snapshot 1`] = `
+<Svg
+  height={24}
+  preserveAspectRatio="xMidYMid meet"
+  style={
+    Object {
+      "transform": Array [
+        Object {
+          "rotateZ": "270deg",
+        },
+      ],
+    }
+  }
+  width={24}
+>
+  <Circle
+    cx={12}
+    cy={12}
+    fill="none"
+    r={10}
+    stroke="#00A778"
+    strokeDasharray="62.83185307179586, 62.83185307179586"
+    strokeDashoffset={
+      AnimatedValue {
+        " __value": NaN,
+      }
+    }
+    strokeLinecap="round"
+    strokeWidth={4}
+  />
+</Svg>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SettingsRow /> matches snapshot 1`] = `
+<ForwardRef
+  disabled={false}
+  onPress={[MockFunction]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#E6E6E6",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "paddingLeft": 8,
+        "paddingRight": 27,
+        "paddingVertical": 12,
+      },
+      Object {
+        "marginTop": 1000,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#4A4A4A",
+        "flex": 1,
+        "fontSize": 17,
+      }
+    }
+    testId="settings-row-text"
+  >
+    Text
+  </Text>
+  <Text>
+    Right Element
+  </Text>
+</ForwardRef>
+`;

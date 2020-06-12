@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Row /> matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "paddingVertical": 16,
+      },
+      false,
+      Object {
+        "marginBottom": 1000,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#00A778",
+          "justifyContent": "center",
+          "marginHorizontal": 8,
+          "paddingHorizontal": 14,
+          "paddingVertical": 8,
+          "width": 80,
+        },
+        Object {
+          "marginTop": 1000,
+        },
+      ]
+    }
+    testId="row-highlight-container"
+  >
+    <Text
+      style={
+        Object {
+          "color": "#FFFFFF",
+          "fontSize": 17,
+          "textAlign": "center",
+        }
+      }
+      testId="row-highlight-text"
+    >
+      Highlight
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#4A4A4A",
+          "fontSize": 17,
+        }
+      }
+      testId="row-primary-text"
+    >
+      Primary Text
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "#9B9B9B",
+          "fontSize": 14,
+        }
+      }
+      testId="row-secondary-text"
+    >
+      Secondary Text
+    </Text>
+  </View>
+</View>
+`;

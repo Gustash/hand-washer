@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CircularButton /> matches CircularButton snapshot 1`] = `
+<ForwardRef
+  disabled={false}
+  onPress={[MockFunction]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#00A1D2",
+        "elevation": 16,
+        "padding": 30,
+        "shadowColor": "#000000",
+        "shadowOffset": Object {
+          "height": 2,
+        },
+        "shadowOpacity": 0.2,
+        "shadowRadius": 16,
+      },
+      Object {
+        "borderRadius": 102,
+        "height": 204,
+        "width": 204,
+      },
+      null,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "#FFFFFF",
+        "fontSize": 21,
+        "textAlign": "center",
+      }
+    }
+  />
+</ForwardRef>
+`;

@@ -1,0 +1,552 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WashTimer /> matches snapshot 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "marginVertical": 80,
+        }
+      }
+    >
+      <RNSVGSvgView
+        bbHeight={222}
+        bbWidth={222}
+        focusable={false}
+        height={222}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "transform": Array [
+                Object {
+                  "rotateZ": "270deg",
+                },
+              ],
+            },
+            Object {
+              "flex": 0,
+              "height": 222,
+              "width": 222,
+            },
+          ]
+        }
+        width={222}
+      >
+        <RNSVGGroup
+          matrix={
+            Array [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+            ]
+          }
+        >
+          <RNSVGCircle
+            cx={111}
+            cy={111}
+            fill={null}
+            propList={
+              Array [
+                "fill",
+                "stroke",
+                "strokeWidth",
+                "strokeDasharray",
+                "strokeDashoffset",
+                "strokeLinecap",
+              ]
+            }
+            r={106.5}
+            stroke={4278232952}
+            strokeDasharray={
+              Array [
+                "669.1592352146259",
+                "669.1592352146259",
+              ]
+            }
+            strokeDashoffset={0}
+            strokeLinecap={1}
+            strokeWidth={9}
+          />
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#00A1D2",
+            "borderRadius": 102,
+            "elevation": 16,
+            "height": 204,
+            "left": 9,
+            "opacity": 1,
+            "padding": 30,
+            "position": "absolute",
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 2,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 16,
+            "top": 9,
+            "width": 204,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 48,
+              }
+            }
+          >
+            20
+          </Text>
+        </View>
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 21,
+              "textAlign": "center",
+            }
+          }
+        >
+          Seconds
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 16,
+          },
+          false,
+          Object {
+            "marginLeft": 30,
+            "marginRight": 65,
+            "marginTop": 16,
+            "paddingVertical": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#00A778",
+              "justifyContent": "center",
+              "marginHorizontal": 8,
+              "paddingHorizontal": 14,
+              "paddingVertical": 8,
+              "width": 80,
+            },
+            Object {
+              "height": 36,
+              "width": 38,
+            },
+          ]
+        }
+        testId="row-highlight-container"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 17,
+              "textAlign": "center",
+            }
+          }
+          testId="row-highlight-text"
+        >
+          1
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#4A4A4A",
+              "fontSize": 17,
+            }
+          }
+          testId="row-primary-text"
+        >
+          Wet your hands
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#9B9B9B",
+              "fontSize": 14,
+            }
+          }
+          testId="row-secondary-text"
+        >
+          With clean, running water (warm or cold), turn off the tap, and apply soap
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 16,
+          },
+          false,
+          Object {
+            "marginLeft": 30,
+            "marginRight": 65,
+            "marginTop": 16,
+            "paddingVertical": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#00A778",
+              "justifyContent": "center",
+              "marginHorizontal": 8,
+              "paddingHorizontal": 14,
+              "paddingVertical": 8,
+              "width": 80,
+            },
+            Object {
+              "height": 36,
+              "width": 38,
+            },
+          ]
+        }
+        testId="row-highlight-container"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 17,
+              "textAlign": "center",
+            }
+          }
+          testId="row-highlight-text"
+        >
+          2
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#4A4A4A",
+              "fontSize": 17,
+            }
+          }
+          testId="row-primary-text"
+        >
+          Lather your hands
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#9B9B9B",
+              "fontSize": 14,
+            }
+          }
+          testId="row-secondary-text"
+        >
+          Rub them together with soap. Lather the backs of your hands, between your fingers, and under your nails
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 16,
+          },
+          false,
+          Object {
+            "marginLeft": 30,
+            "marginRight": 65,
+            "marginTop": 16,
+            "paddingVertical": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#00A778",
+              "justifyContent": "center",
+              "marginHorizontal": 8,
+              "paddingHorizontal": 14,
+              "paddingVertical": 8,
+              "width": 80,
+            },
+            Object {
+              "height": 36,
+              "width": 38,
+            },
+          ]
+        }
+        testId="row-highlight-container"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 17,
+              "textAlign": "center",
+            }
+          }
+          testId="row-highlight-text"
+        >
+          3
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#4A4A4A",
+              "fontSize": 17,
+            }
+          }
+          testId="row-primary-text"
+        >
+          Scrub
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#9B9B9B",
+              "fontSize": 14,
+            }
+          }
+          testId="row-secondary-text"
+        >
+          Scrub your hands for at least 20 seconds
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 16,
+          },
+          false,
+          Object {
+            "marginLeft": 30,
+            "marginRight": 65,
+            "marginTop": 16,
+            "paddingVertical": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#00A778",
+              "justifyContent": "center",
+              "marginHorizontal": 8,
+              "paddingHorizontal": 14,
+              "paddingVertical": 8,
+              "width": 80,
+            },
+            Object {
+              "height": 36,
+              "width": 38,
+            },
+          ]
+        }
+        testId="row-highlight-container"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 17,
+              "textAlign": "center",
+            }
+          }
+          testId="row-highlight-text"
+        >
+          4
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#4A4A4A",
+              "fontSize": 17,
+            }
+          }
+          testId="row-primary-text"
+        >
+          Rinse well
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#9B9B9B",
+              "fontSize": 14,
+            }
+          }
+          testId="row-secondary-text"
+        >
+          Using running clean water
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "paddingVertical": 16,
+          },
+          false,
+          Object {
+            "marginLeft": 30,
+            "marginRight": 65,
+            "marginTop": 16,
+            "paddingVertical": 0,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#00A778",
+              "justifyContent": "center",
+              "marginHorizontal": 8,
+              "paddingHorizontal": 14,
+              "paddingVertical": 8,
+              "width": 80,
+            },
+            Object {
+              "height": 36,
+              "width": 38,
+            },
+          ]
+        }
+        testId="row-highlight-container"
+      >
+        <Text
+          style={
+            Object {
+              "color": "#FFFFFF",
+              "fontSize": 17,
+              "textAlign": "center",
+            }
+          }
+          testId="row-highlight-text"
+        >
+          5
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#4A4A4A",
+              "fontSize": 17,
+            }
+          }
+          testId="row-primary-text"
+        >
+          Dry your hands
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#9B9B9B",
+              "fontSize": 14,
+            }
+          }
+          testId="row-secondary-text"
+        >
+          Using a clean towel or air dry them
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
